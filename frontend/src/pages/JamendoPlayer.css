@@ -1,0 +1,72 @@
+.container {
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+    min-height: 100vh;
+  }
+  
+  .container.dark {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-bar {
+    margin: 1rem 0;
+  }
+  
+  .content {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .track-list {
+    width: 60%;
+  }
+  
+  .track-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    gap: 1rem;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  
+  .track-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  
+  .playlist-section {
+    width: 30%;
+  }
+  
+  .audio-player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .audio-player h3 {
+    margin: 0;
+  }
+  
+  .controls button {
+    margin: 0.5rem;
+  }
+  

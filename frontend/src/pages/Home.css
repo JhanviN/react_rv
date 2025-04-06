@@ -1,0 +1,76 @@
+.home-container {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #f3f4f6, #e0e7ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: #4f46e5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-tagline {
+    font-size: 1.5rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+  }
+  
+  .home-welcome {
+    font-size: 1.2rem;
+    color: #10b981;
+    margin-bottom: 1rem;
+  }
+  
+  .home-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-nav {
+    margin: 2rem 0;
+  }
+  
+  .home-link {
+    display: block;
+    margin: 0.5rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  .home-link:hover {
+    color: #1d4ed8;
+  }
+  
+  .home-features {
+    text-align: left;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  .home-features h3 {
+    color: #111827;
+  }
+  
+  .home-features ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .home-features li {
+    background: #e5e7eb;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .home-footer {
+    margin-top: 4rem;
+    color: #9ca3af;
+    font-size: 0.9rem;
+  }
+  
